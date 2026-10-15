@@ -50,3 +50,7 @@ if __name__ == "__main__":
         length_bounds=(20, 80),
         quality_threshold=0
     )
+    parse_blast_output(
+        input_file="example_blast_results.txt",
+        output_file="blast_descriptions.txt"
+    )
